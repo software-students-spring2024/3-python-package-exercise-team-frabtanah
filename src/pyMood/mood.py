@@ -1,7 +1,10 @@
 import random
+
 from .affirmations import affirmations
 from .coffee_types import coffee_types
 from .relaxation_tips import relaxation_tips
+from .jokes import jokes
+
 
 
 
@@ -17,6 +20,9 @@ def tell_me_a_joke():
     """
         Returns a random joke to lighten up the user's mood. 
     """
+    joke = random.choice(jokes)
+    return joke
+
 
 def relaxation_tip(category=None):
     """
@@ -31,6 +37,8 @@ def relaxation_tip(category=None):
         tips = all_tips
 
     return random.choice(tips)
+
+   
 
 def coffee_suggestion():
     """
