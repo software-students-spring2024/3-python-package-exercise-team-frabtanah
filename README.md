@@ -1,10 +1,6 @@
 # Python Mood Enhancer (PyMood)
 
-[![Python Package](https://github.com/software-students-spring2024/3-python-package-exercise-team-frabtanah/actions/workflows/python-app.yml/badge.svg)](https://github.com/software-students-spring2024/3-python-package-exercise-team-frabtanah/actions/workflows/python-app.yml)
-
-An exercise to create a Python package, build it, test it, distribute it, and use it. See [instructions](./instructions.md) for details.
-
-Include a [badge](https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/adding-a-workflow-status-badge) at the top of the `README.md` file showing the result of the latest build/test workflow run.
+![Build Status](https://img.shields.io/github/actions/workflow/status/software-students-spring2024/3-python-package-exercise-team-frabtanah/event-logger.yml)
 
 Replace the contents of the [README.md](./README.md) file with a beautifully-formatted Markdown file including a plain-language **description** of your project and **clear instructions**, including exact **code examples**, for:
 
