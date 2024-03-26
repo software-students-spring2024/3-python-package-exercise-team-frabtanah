@@ -1,6 +1,7 @@
 import random
 from affirmations import affirmations
 from coffee_types import coffee_types
+from jokes import jokes
 
 
 
@@ -14,9 +15,10 @@ def get_affirmation():
 
 def tell_me_a_joke():
     """
-        Returns a random joke to lightne up the user's mood. 
+        Returns a random joke to lighten up the user's mood. 
     """
-
+    joke = random.choice(jokes)
+    return joke
 
 def coffee_suggestion():
     """
