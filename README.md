@@ -26,8 +26,23 @@ We have several functions to use from within pyMood.
 ```python
 
 relaxation_tip(category)
-# the parameter category allows the user to select a category from the following: music, nature, exercise, aromatherapy, writing, mindfulness or breathing. The function will then return a relaxation tip related to the selected category
-# additionally, the user may elect to input no category at all and receive a random relaxation tip from any of the categories.
+# Returns a random relaxation tip from a specified category to help the user relax.
+# If no category is specified, return a random tip.
+```
+
+```python
+tell_me_a_joke()
+# Returns a random joke to lighten up the user's mood
+```
+
+```python
+get_affirmation()
+# Returns a random positive affirmation to boost the user's mood and confidence
+```
+
+```python
+coffee_suggestion()
+# Returns a random cup of coffee as a suggestion, to help motivate the user.
 ```
 
 ## Team Members
