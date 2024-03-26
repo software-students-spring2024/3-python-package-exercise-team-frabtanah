@@ -1,5 +1,5 @@
 import pytest 
-from pyMood.mood import coffee_suggestion, relaxation_tip
+from pyMood.mood import coffee_suggestion, relaxation_tip, cat_mood_generator
 from pyMood.coffee_types import coffee_types
 from pyMood.relaxation_tips import relaxation_tips
 
@@ -31,3 +31,11 @@ class TestMood:
         tip = relaxation_tip()
         all_tips = [item for sublist in relaxation_tips.values() for item in sublist]
         assert tip in all_tips, "The function should return a valid tip when no category is specified."
+    
+
+    def test_cat_mood_generator():
+        expected_moods = ["Playful", "Sleepy", "Hungry", "Grumpy"]
+        
+        mood = cat_mood_generator()
+        
+        assert mood in expected_moods, f"The mood {mood} is not in the list of expected moods."
