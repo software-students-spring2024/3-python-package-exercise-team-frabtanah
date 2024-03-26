@@ -1,6 +1,6 @@
 # Python Mood Enhancer (PyMood)
 
-![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
+[![Python Package](https://github.com/software-students-spring2024/3-python-package-exercise-team-frabtanah/actions/workflows/python-app.yml/badge.svg)](https://github.com/software-students-spring2024/3-python-package-exercise-team-frabtanah/actions/workflows/python-app.yml)
 
 An exercise to create a Python package, build it, test it, distribute it, and use it. See [instructions](./instructions.md) for details.
 
