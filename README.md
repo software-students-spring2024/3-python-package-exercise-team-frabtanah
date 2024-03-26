@@ -14,5 +14,6 @@ Include the names of all teammates as links to their GitHub profiles in the READ
 ## Team Members
 
 Francisco Cunningham - [fctico11](https://github.com/fctico11)
+Ahmad Almesned - [ahmadhcs](https://github.com/ahmadhcs)
 
 Include a link to your package's page on the PyPI website.
