@@ -67,5 +67,6 @@ cat_mood_generator()
 
 - Francisco Cunningham - [fctico11](https://github.com/fctico11)
 - Ahmad Almesned - [ahmadhcs](https://github.com/ahmadhcs)
+- Tanuj Sistla - [tanuj123-cyber](https://github.com/tanuj123-cyber)
 
 Link to [pyMood](link) on the PyPI website.
