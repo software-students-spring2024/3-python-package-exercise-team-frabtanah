@@ -12,8 +12,10 @@ class TestMood:
         suggestion = coffee_suggestion()
 
         assert suggestion.startswith("How about a cup of ")
-        coffee_type = suggestion[18:-9]
-        assert coffee_type in coffee_types
+        prefix = "How about a cup of "
+        suffix = " today?"
+        coffee_type = suggestion[len(prefix):-len(suffix)]
+        assert coffee_type in coffee_types, f"Extracted coffee type was '{coffee_type}'"
 
 
     def test_return_tip_from_specified_category(self):
@@ -33,7 +35,7 @@ class TestMood:
         assert tip in all_tips, "The function should return a valid tip when no category is specified."
     
 
-    def test_cat_mood_generator():
+    def test_cat_mood_generator(self):
         expected_moods = ["Playful", "Sleepy", "Hungry", "Grumpy"]
         
         mood = cat_mood_generator()
