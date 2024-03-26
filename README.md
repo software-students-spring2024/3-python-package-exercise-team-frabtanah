@@ -61,6 +61,11 @@ coffee_suggestion()
 # Returns a random cup of coffee as a suggestion, to help motivate the user.
 ```
 
+```python
+cat_mood_generator()
+# Returns a random cat emotion.
+```
+
 ## Team Members
 
 - Francisco Cunningham - [fctico11](https://github.com/fctico11)
