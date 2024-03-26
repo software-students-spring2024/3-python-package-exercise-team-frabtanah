@@ -35,6 +35,15 @@ class TestMood:
         assert tip in all_tips, "The function should return a valid tip when no category is specified."
     
 
+    def test_relaxation_tip_variety(self):
+        """
+            Test if the function returns a variety of unique tips when called multiple times.
+        """
+        tips = [relaxation_tip() for _ in range(10)]  #call the function multiple times
+        unique_tips = set(tips)  #convert the list of tips to a set to remove duplicates
+        assert len(unique_tips) > 1, "The function should return a variety of tips."
+
+
     def test_cat_mood_generator(self):
         expected_moods = ["Playful", "Sleepy", "Hungry", "Grumpy"]
         
