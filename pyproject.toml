@@ -6,6 +6,5 @@ build-backend = "setuptools.build_meta"
 name = "pyMood"
 version = "0.1"
 description = "A Python package for mood analysis and suggestion"
-authors = [{ name = "Francisco Cunningham", github = "fctico11" },]
-authors = [{ name = "Ahmad Almesned", github = "ahmadhcs" },]
+authors = [{ name = "Francisco Cunningham", github = "fctico11" }, { name = "Ahmad Almesned", github = "ahmadhcs" }]
 readme = "README.md"
