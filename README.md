@@ -19,6 +19,19 @@ To install the module from PyPI, run the command:
 
 ``pip install pyMood``
 
+### Contributions
+
+A virtual environment is required to build and test.
+To start the virtual environment, first you must install pipenv and then run:
+```pip install pipenv```
+```pipenv shell```
+
+Then install pyMood in your virtual environment
+```pipenv install pyMood```
+
+To install the dependencies of pyMood:
+```pip install requirements.txt```
+
 ## Usage
 
 We have several functions to use from within pyMood.
