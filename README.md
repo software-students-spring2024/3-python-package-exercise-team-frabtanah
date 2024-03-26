@@ -1,3 +1,18 @@
 # Python Package Exercise
 
 An exercise to create a Python package, build it, test it, distribute it, and use it. See [instructions](./instructions.md) for details.
+
+Include a [badge](https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/adding-a-workflow-status-badge) at the top of the `README.md` file showing the result of the latest build/test workflow run.
+
+Replace the contents of the [README.md](./README.md) file with a beautifully-formatted Markdown file including a plain-language **description** of your project and **clear instructions**, including exact **code examples**, for:
+
+- how a developer who wants to import your project into their own code can do so - include documentation for all functions in your package and a link to an example Python program that uses each of them.
+- how a developer who wants to contribute to your project can set up the virtual environment, install dependencies, and build and test your package for themselves.
+
+Include the names of all teammates as links to their GitHub profiles in the README.md file.
+
+## Team Members
+
+Francisco Cunningham - [fctico11](https://github.com/fctico11)
+
+Include a link to your package's page on the PyPI website.
