@@ -22,5 +22,6 @@ For any developers who want to import PyMood into their own code, follow the ste
 ## Team Members
 
 Francisco Cunningham - [fctico11](https://github.com/fctico11)
+Ahmad Almesned - [ahmadhcs](https://github.com/ahmadhcs)
 
 Link to [PyMood](link) on the PyPI website.
