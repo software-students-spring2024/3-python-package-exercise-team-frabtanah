@@ -18,8 +18,6 @@ PyMood is a python package designed to give a quick mood boost to programmers. W
 ## Instructions
 
 For any developers who want to import PyMood into their own code, follow the steps below:
-* 
-.
 
 ## Team Members
 
