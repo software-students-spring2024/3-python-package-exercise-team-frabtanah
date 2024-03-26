@@ -16,7 +16,19 @@ pyMood is a python package designed to give a quick mood boost to programmers. W
 For any developers who want to import pyMood into their own code, follow the steps below:
 
 To install the module from PyPI, run the command:
+
 ``pip install pyMood``
+
+## Usage
+
+We have several functions to use from within pyMood.
+
+```python
+
+relaxation_tip(category)
+# the parameter category allows the user to select a category from the following: music, nature, exercise, aromatherapy, writing, mindfulness or breathing. The function will then return a relaxation tip related to the selected category
+# additionally, the user may elect to input no category at all and receive a random relaxation tip from any of the categories.
+```
 
 ## Team Members
 
