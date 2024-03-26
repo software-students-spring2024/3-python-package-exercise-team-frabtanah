@@ -17,7 +17,7 @@ For any developers who want to import pyMood into their own code, follow the ste
 
 To install the module from PyPI, run the command:
 
-``pip install pyMood``
+``pip install -i https://test.pypi.org/PATH TO pyMood``
 
 ### Contributions
 
@@ -26,11 +26,14 @@ To start the virtual environment, first you must install pipenv and then run:
 ```pip install pipenv```
 ```pipenv shell```
 
-Then install pyMood in your virtual environment
+Then install pyMood in your virtual environment:
 ```pipenv install pyMood```
 
 To install the dependencies of pyMood:
-```pip install requirements.txt```
+```pipenv install pytest build twine```
+
+To run the unit tests provided you can then simply run:
+```pytest```
 
 ## Usage
 
