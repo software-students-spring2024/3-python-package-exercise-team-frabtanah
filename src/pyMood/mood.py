@@ -14,6 +14,12 @@ def get_affirmation():
     """
     return random.choice(affirmations)
 
+def cat_mood_generator():
+    """
+    Randomly generates a cat's mood.
+    """
+    moods = ["Playful", "Sleepy", "Hungry", "Grumpy"]
+    return random.choice(moods)
 
 
 def tell_me_a_joke():
