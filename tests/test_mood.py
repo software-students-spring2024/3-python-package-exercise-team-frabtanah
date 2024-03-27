@@ -1,9 +1,9 @@
 import pytest 
-from pyMood.mood import coffee_suggestion, relaxation_tip, cat_mood_generator, high_five
+from pyMood.mood import coffee_suggestion, relaxation_tip, cat_mood_generator, tell_me_a_joke, high_five
 from pyMood.coffee_types import coffee_types
 from pyMood.relaxation_tips import relaxation_tips
-from pyMood.highfives import highfives 
-
+from pyMood.jokes import jokes
+from pyMood.highfives import highfives
 
 
 class TestMood: 
@@ -76,3 +76,19 @@ class TestMood:
 
 
     
+    # Testing if a string is returned
+    def test_joke_string(self):
+        joke = tell_me_a_joke()
+        assert isinstance(joke, str)
+    
+    # Testing if the joke is a valid joke from the list.
+    def test_joke_valid(self):
+        joke = tell_me_a_joke()
+        assert joke in jokes, f"The joke {joke} is not in the list of expected moods."
+    
+    # Testing if the joke is random each time.
+    def test_joke_random(self):
+        joke = [tell_me_a_joke() for _ in range(10)]  #call the function multiple times
+        joke_set = set(joke)  #convert the list of tips to a set to remove duplicates
+        assert len(joke_set) > 1, "The function should return a random joke each time."
+        
