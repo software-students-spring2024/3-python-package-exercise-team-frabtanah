@@ -43,6 +43,9 @@ Then install pyMood in your virtual environment from the remote version:
 To install the dependencies of pyMood:
 ```pipenv install pytest build twine```
 
+To install pyMood:
+```pipenv install pyMood```
+
 To run the main file and our project:
 ```python3 -m pyMood```
 
