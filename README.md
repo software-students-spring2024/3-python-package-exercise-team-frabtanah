@@ -17,15 +17,21 @@ To install the module from PyPI, run the command:
 ### Contributions
 
 A virtual environment is required to build and test.
-To start the virtual environment, first you must install pipenv and then run:
-```pip install pipenv```
+To start the virtual environment, first you must install pipenv and then run:<br>
+```pip install pipenv```<br>
+```pipenv install -e .```<br>
 ```pipenv shell```
+
+
 
 Then install pyMood in your virtual environment:
 ```pipenv install pyMood```
 
 To install the dependencies of pyMood:
 ```pipenv install pytest build twine```
+
+To run the main file and our project: 
+```python3 -m pyMood```
 
 To run the unit tests provided you can then simply run:
 ```pytest```
