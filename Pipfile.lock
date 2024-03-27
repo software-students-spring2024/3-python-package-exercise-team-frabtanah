@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "695e6014c080b3e9dae3038378d6dd6e70104df945f82323cdc30e841b5e47ad"
+            "sha256": "b7d537377706bba3409701e7d5d11064fe24e67b356e21a5c67f57a2acd9d228"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -380,6 +380,10 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==2.17.2"
+        },
+        "pymood": {
+            "editable": true,
+            "file": "."
         },
         "pyproject-hooks": {
             "hashes": [
