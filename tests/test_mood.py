@@ -1,7 +1,8 @@
 import pytest 
-from pyMood.mood import coffee_suggestion, relaxation_tip, cat_mood_generator
+from pyMood.mood import coffee_suggestion, relaxation_tip, cat_mood_generator, high_five
 from pyMood.coffee_types import coffee_types
 from pyMood.relaxation_tips import relaxation_tips
+from pyMood.highfives import highfives 
 
 
 
@@ -50,3 +51,28 @@ class TestMood:
         mood = cat_mood_generator()
         
         assert mood in expected_moods, f"The mood {mood} is not in the list of expected moods."
+
+
+    ## Testing high_five expected output
+    def test_high_five_expected(self):
+
+        expected_output = highfives
+        hf = high_five()
+        assert hf in expected_output, f"The high five {hf} is not as expected."
+    
+    ## Testing if high_five is a string 
+    def test_high_five_string(self):
+
+        hf = high_five()
+        assert isinstance(hf, str)
+
+
+    ## Testing if high_five is random variety
+    def test_high_five_variety(self):
+
+        hfs = [high_five() for _ in range(15)]  #call the function 15 times
+        unique_hfs = set(hfs)  
+        assert len(unique_hfs) > 1, "The function should return a variety of hfs."
+
+
+    

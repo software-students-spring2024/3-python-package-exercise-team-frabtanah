@@ -56,6 +56,7 @@ def coffee_suggestion():
 
 
 def high_five():
+    ## Return random highfive ASCII Art
     hf = random.choice(highfives)
     return hf
 
