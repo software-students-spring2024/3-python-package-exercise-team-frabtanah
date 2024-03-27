@@ -5,7 +5,9 @@ name = "pypi"
 
 [packages]
 pytest = "*"
-pymood = {file = ".", editable = true}
+pymood = "*"
+build = "*"
+twine = "*"
 
 [dev-packages]
 
