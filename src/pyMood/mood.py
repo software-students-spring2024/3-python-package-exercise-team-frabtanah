@@ -4,6 +4,7 @@ from .affirmations import affirmations
 from .coffee_types import coffee_types
 from .relaxation_tips import relaxation_tips
 from .jokes import jokes
+from .highfives import highfives
 
 
 
@@ -52,6 +53,11 @@ def coffee_suggestion():
     """
     suggestion = random.choice(coffee_types)
     return f"How about a cup of {suggestion} today?"
+
+
+def high_five():
+    hf = random.choice(highfives)
+    return hf
 
 
 
