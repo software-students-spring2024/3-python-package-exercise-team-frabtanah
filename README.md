@@ -12,7 +12,7 @@ For any developers who want to import pyMood into their own code, follow the ste
 
 To install the module from PyPI, run the command:
 
-``pip install pyMood==0.1``
+``pip install pyMood==0.2``
 
 Then to use it, you can import using:
 
@@ -38,7 +38,7 @@ To start the virtual environment, first you must install pipenv, activate edit m
 ```pipenv shell```
 
 Then install pyMood in your virtual environment from the remote version:
-```pipenv install -i https://pypi.org/project/pyMood/0.1/```
+```pipenv install -i https://pypi.org/project/pyMood/0.2/```
 
 To install the dependencies of pyMood:
 ```pipenv install pytest build twine```
@@ -101,4 +101,4 @@ Otherwise use:
 - Tanuj Sistla - [tanuj123-cyber](https://github.com/tanuj123-cyber)
 - Abhi Vachani - [avachani](https://github.com/avachani)
 
-Link to [pyMood](https://pypi.org/project/pyMood/0.1/) on the PyPI website.
+Link to [pyMood](https://pypi.org/project/pyMood/0.2/) on the PyPI website.
