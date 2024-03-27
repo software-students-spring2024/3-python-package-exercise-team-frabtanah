@@ -12,7 +12,7 @@ For any developers who want to import pyMood into their own code, follow the ste
 
 To install the module from PyPI, run the command:
 
-``pip install -i https://test.pypi.org/PATH TO pyMood``
+``pip install -i https://pypi.org/project/pyMood/0.1/``
 
 ### Contributions
 
@@ -84,4 +84,4 @@ Otherwise use:
 - Tanuj Sistla - [tanuj123-cyber](https://github.com/tanuj123-cyber)
 - Abhi Vachani - [avachani](https://github.com/avachani)
 
-Link to [pyMood](link) on the PyPI website.
+Link to [pyMood](https://pypi.org/project/pyMood/0.1/) on the PyPI website.
