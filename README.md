@@ -67,6 +67,11 @@ high_five()
 ```
 
 Here we have included a link to the [example program](src/pyMood/__main__.py) that uses these functions.
+To run it from within the package, use:
+```python -m pyMood.__main__```
+
+Otherwise use:
+```python __main__.py```
 
 ## Team Members
 
